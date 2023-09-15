@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+nav {
+  box-shadow: 2px 0px 5px grey;
+
+}
+
+.logo {
+  color: white !important;
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.nav-pages ul li a {
+  color: white !important;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  padding-left: 40px !important;
+  text-decoration: none;
+}
+
+
+
+
+.head img {
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+
+
+.logo span {
+  color: brown;
+}
+
+.pages a {
+  color: white !important;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  padding-left: 40px !important;
+  text-decoration: none;
+}
+
+.h-text {
+  margin: 0px 50px;
+  background-color: yellow;
+  opacity: 0.8;
+  padding: 30px;
+  border-radius: 10px;
+  height: auto;
+}
+
+#main {
+  /* background-image: url(./img/bg-image.jpg); */
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.h-text p {
+  color: #262626;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.h-text h1 {
+  font-size: 4em;
+  line-height: 1.5em;
+}
+
+.h-text h1 span {
+  color: brown;
+}
+
+.h-text h2 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+#dis {
+  text-decoration: none;
+  color: white;
+  background: #262626;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
